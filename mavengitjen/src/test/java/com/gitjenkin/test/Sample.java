@@ -29,7 +29,7 @@ public class Sample {
 	     capabilities.setCapability("appPackage", "com.flipkart.android");
 		 capabilities.setCapability("appActivity", "com.flipkart.android.SplashActivity");
 		
-//jfdjgf
+//jfdjgffasf
         driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		// 1. VERIFY WHETHER HOME PAGE IS LOADED

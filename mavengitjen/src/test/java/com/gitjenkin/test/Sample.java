@@ -23,7 +23,7 @@ public class Sample {
 	     DesiredCapabilities capabilities =new DesiredCapabilities();
 		 capabilities.setCapability("automationName", "Appium");
 		 capabilities.setCapability("platformName", "Android");
-	     capabilities.setCapability(CapabilityType.VERSION, "6.0");
+	     capabilities.setCapability(CapabilityType.VERSION, "4.2");
 	     capabilities.setCapability("deviceName", "S4");
 	     // capabilities.setCapability(CapabilityType.BROWSER_NAME, "Chrome");
 	     capabilities.setCapability("appPackage", "com.flipkart.android");

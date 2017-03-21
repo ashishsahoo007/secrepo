@@ -28,7 +28,7 @@ public class Sample {
 	     // capabilities.setCapability(CapabilityType.BROWSER_NAME, "Chrome");
 	     capabilities.setCapability("appPackage", "com.flipkart.android");
 		 capabilities.setCapability("appActivity", "com.flipkart.android.SplashActivity");
-		
+		//akhfda
 //jfdjgffasf
 		 //afdasfa
         driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);

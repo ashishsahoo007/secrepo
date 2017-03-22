@@ -19,7 +19,8 @@ public class Sample {
 	@Test
 	public  void sample() throws MalformedURLException, InterruptedException
 	{
-         RemoteWebDriver driver;
+        //recent commit
+		RemoteWebDriver driver;
 	     DesiredCapabilities capabilities =new DesiredCapabilities();
 		 capabilities.setCapability("automationName", "Appium");
 		 capabilities.setCapability("platformName", "Android");
